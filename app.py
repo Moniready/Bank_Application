@@ -18,7 +18,7 @@ import store_data
 user_dict = {}
 
 
-#*******************************************Sheet API************************************************************#
+#*******************************************Sheet-API************************************************************#
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = '16ne42-2Sp62SnTw221SPOdCmwJOvBaiq9CJ2apAWTOg'
 try:
