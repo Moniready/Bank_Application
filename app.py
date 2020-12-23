@@ -194,7 +194,7 @@ def end_page():
               message = MIMEText('<img src="https://i.ibb.co/7Rg9S6C/Moni-Ready-IG-POSTS-4-1.png"><br><h2><a href="https://moniready.aidaform.com/moniready-upload-form">Click here to upload documents</a></h2>','html')
               message['to']=y['email']
               message['from'] = "monireadyinfo@gmail.com"
-              message['subject']="Moniready Application"
+              message['subject']="Great News"
               raw = base64.urlsafe_b64encode(message.as_bytes())
               raw = raw.decode()
               body={'raw':raw}
