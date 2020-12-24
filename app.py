@@ -205,7 +205,7 @@ def end_page():
                   print("an error occured")
           else:
               application_status = "Rejected"
-              message = MIMEText('<img src="https://i.ibb.co/XFzcRRD/Moni-Ready-IG-POSTS-3-1.png"><br><h2><a href="https://moniready.aidaform.com/moniready-upload-form">Click Here For Further Procedure</a></h2>','html')
+              message = MIMEText('<img src="https://i.ibb.co/XFzcRRD/Moni-Ready-IG-POSTS-3-1.png">','html')
               message['to']=y['email']
               message['from'] = "monireadyinfo@gmail.com"
               message['subject']="Moniready Application"
