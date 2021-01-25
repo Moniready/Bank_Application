@@ -90,8 +90,8 @@ def check_application_for_rejection(home_salary,additonal_salary,mortgage_value,
     payments = 23200
 
   total = salary - expense
-  thirty_percent = 0.3 * total
-  if(thirty_percent>=payments):
+  forty_percent = 0.4 * total
+  if(forty_percent>=payments):
     return False
   else:
     return True
