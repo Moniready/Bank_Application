@@ -190,7 +190,7 @@ def end_page():
           pay_check = prediction_by_model(y['age'],y['amount_borrowed'],y['light_expense'],y['marital_status'],y['occupation_status'],y['working_with_employ'],y['residential_status'],y['living_with_address'],y['kids'],y['loan_purpose'])
           if(pay_check==True):
               application_status = "Approved"
-              message = MIMEText('<img src="https://i.ibb.co/7Rg9S6C/Moni-Ready-IG-POSTS-4-1.png"><br><h2>Feel free to reach out to us via online chat on our website for the next steps OR FAST TRACK your application by </h2><br><h2><a href="https://www.jotform.com/90666325855870">Clicking here to upload verification documents</a></h2>,'html')
+              message = MIMEText('<img src="https://i.ibb.co/7Rg9S6C/Moni-Ready-IG-POSTS-4-1.png"><br><h2>Feel free to reach out to us via online chat on our website for the next steps OR FAST TRACK your application by </h2><br><h2><a href="https://www.jotform.com/90666325855870">Clicking here to upload verification documents</a></h2>','html')
               message['to']=y['email']
               message['from'] = "monireadyinfo@gmail.com"
               message['subject']="Great News"
